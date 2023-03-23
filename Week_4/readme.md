@@ -1,6 +1,5 @@
 # 4주차 C언어 실습
   - 4주차 실습
-  - 4주차 복습
   
 ```c
 #include <stdio.h>
@@ -22,6 +21,29 @@ int main() {
 
     result = x / y;
     printf("%f / %f = %f\n", x, y, result);
+
+    return 0;
+}
+```
+```c
+#include <stdio.h>
+
+int main() {
+    char code1 = 'A';
+    char code2 = 65;
+
+    printf("code1 = %d\n", code1);
+    printf("code2 = %d\n", code2+3);
+
+    return 0;
+}
+```
+```c
+#include <stdio.h>
+
+int main() {
+    int i =10;
+    printf("%d",++i);
 
     return 0;
 }
